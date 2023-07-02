@@ -1,13 +1,13 @@
 ![Avatar](/rsschool-cv/Avatar.JPG)
 ### ** Elena Talkachova **
 ## **Contacts**
---------
+*********
         + Location: Wroclaw Poland
         + Mobile: +48 664495114
         + email: elenka1891@gmail.com
         + Discord: Elena#0711
         + GitHab: Elena Talkachova
----------
+*********
 ## * About me *
 ---------
     I have a great experience in sales and good knowledge in business management.
