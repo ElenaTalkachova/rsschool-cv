@@ -6,14 +6,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>
-        Page Title
-    </title>
+    <title>CV</title>
 </head>
 
 <body>
-    <h1>This is a Heading</h1>
-    <p>This is paragraph</p>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Summery</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languges</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="section" id="imgName">
+                <h1>Elena Talkachova</h1>
+                <p>Junior Developer</p>
+                <div>
+                    <img src="D:/rs_school/rsschool-cv/Avatar.JPG" class="imgAvatar" alt="Avatar">
+                </div>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2><i>Contacts</i></h2>
+                <ul>
+                    <li>Mobile: +48 664495114</li>
+                    <li>email: elenka1891@gmail.com</li>
+                    <li>Discord: Elena#0711</li>
+                    <li>GitHub: ElenaTalkachova</li>
+                </ul>
+
+            </section>
+
+            <section class="section" id="about">
+                <h2><i>About me</i></h2>
+                <div class="textAbout">
+                    <p>I have a great experience in sales and good knowledge in business management.<br>
+                        That experience helped me to develop my soft skills, work in team and think outside the box.<br>
+                        I'm really hard-working, communicative, open-minded, ambitious and responsible person.<br>
+                        Also i like to learn something new and seeking self-development</p>
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h2><i>Skills</i></h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript(Basic)</li>
+                    <li>Git, Markdown</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2><i>Code</i></h2>
+                <div class="textCode">
+                    <code>
+                    function min (a,b) {
+                        return a = b ? a : b;
+                        }
+                </code>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h2><i>Education</i></h2>
+                <div>
+                    <p>Gomel College-Branch of the Belarusian State University of Transport</p>
+                </div>
+            </section>
+            <section class="section" id="languages">
+                <h2><i>Languages</i></h2>
+                <div>
+                    <p>Russian:Native<br>
+                        Polish:A2<br>
+                        German:A2<br>
+                        English:Beginner<br>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <span>2023  <a href="https://rs.school/js/"></a></span>
+        </div>
+    </footer>
 </body>
 
 </html>
